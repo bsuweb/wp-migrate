@@ -158,7 +158,7 @@ Future Enhancements / Known Issues
 * If the `wp-path` is not sufficiently unique then ordinary URLs or 
   other text in content and config might match the find-and-replace and therefore 
   unexpected changes in content occur. 
-* 
+* We are currently use [phpseclib](https://github.com/phpseclib/phpseclib) version `0.3.5` since the latest version, `0.3.7` has an [issue uploading large files](https://github.com/phpseclib/phpseclib/issues/455) in our testing. If this is fixed, we will point to the latest version using composer.
 
 License
 ------
