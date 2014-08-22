@@ -1,0 +1,36 @@
+{
+	"hosts": {
+		"host1": {
+			"connection" : "ssh",
+			"domain-name": "www.host1.org",
+			"username": "ssh-username",
+			"password": "ssh-password",
+			"wp-path": "/path/to/wp/installation",
+			"uploads-folder": ["uploads","blogs.dir"],
+			"tar-create-options": ""
+		},
+		"host2": {
+			"connection" : "ssh",
+			"domain-name": "www.host1.org",
+			"username": "ssh-username",
+			"password": "ssh-password",
+			"wp-path": "/path/to/wp/installation",
+			"uploads-folder": ["uploads","blogs.dir"],
+			"tar-create-options": ""
+		},
+		"host3": {
+			"connection" : "filesystem",
+			"domain-name": "www.host1.org",
+			"wp-path": "/path/to/wp/installation",
+			"uploads-folder": ["uploads"],
+			"tar-create-options": ""
+		}
+	},
+	"temp_db": {
+		"hostname": "hostname",
+		"username": "username",
+		"password": "password",
+		"database_name": "database_name",
+	}
+
+}
